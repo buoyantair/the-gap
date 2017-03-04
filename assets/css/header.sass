@@ -1,0 +1,26 @@
+@import defaults
+
+.header
+    +flex(flex, row wrap, space-between)
+    background: $p-bcol
+    width: 100%
+    min-height: 1em
+    font-size: 40px
+    font-family: $p-font
+
+.brand
+    +flex(flex, row wrap, space-around)
+    +mksmpl(0em, .5em)
+    width: 60%
+    color: $p-tcol
+    h1
+        +flex(flex, column wrap, center)
+        position: relative
+        transform: translateY(.5em) scale(2) rotateZ(-7deg)
+.nav
+    +flex(flex, row wrap, space-around)
+    +mksmpl(0em, .5em)
+    width: 22%
+    ul
+        li
+            +flex(flex, column wrap, center)

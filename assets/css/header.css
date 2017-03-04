@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background: #EFD8E8;
+  width: 100%;
+  min-height: 1em;
+  font-size: 40px;
+  font-family: "Satisfy", sans-serif; }
+
+.brand {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0em;
+  margin: 0.5em;
+  width: 60%;
+  color: #EF1C9D; }
+  .brand h1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    position: relative;
+    transform: translateY(0.5em) scale(2) rotateZ(-7deg); }
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0em;
+  margin: 0.5em;
+  width: 22%; }
+  .nav ul li {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; }
+
+/*# sourceMappingURL=header.css.map */
