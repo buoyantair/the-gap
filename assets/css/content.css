@@ -1,3 +1,28 @@
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css";
+.content {
+  background: linear-gradient(#f6eaf3, transparent);
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+  .content .g-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+    .content .g-wrapper .gender {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      text-align: center;
+      margin: 1em; }
+      .content .g-wrapper .gender .g-icon {
+        font-size: 5em;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+      .content .g-wrapper .gender .ion-female {
+        color: #f9abdb; }
+      .content .g-wrapper .gender .ion-male {
+        color: #a8a2fd; }
 
 /*# sourceMappingURL=content.css.map */

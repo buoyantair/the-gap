@@ -1,0 +1,19 @@
+@import defaults
+
+.content
+    background: linear-gradient(lighten($p-bcol, 5%), transparent)
+    height: 80vh
+    +flex(flex, column wrap, center)
+    .g-wrapper
+        +flex(flex, row wrap, space-around)
+        .gender
+            +flex(flex, column wrap, center)
+            text-align: center
+            margin: 1em
+            .g-icon
+                font-size: 5em
+                +flex(flex, row wrap, center)
+            .ion-female
+                color: lighten($p-tcol, 30%)
+            .ion-male
+                color: lighten($blue, 10%)

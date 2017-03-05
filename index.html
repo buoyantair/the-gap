@@ -64,7 +64,7 @@ table {
   padding: 0em;
   margin: 0.5em;
   width: 60%;
-  color: #EF1C9D; }
+  color: #f67bc6; }
   .brand h1 {
     display: flex;
     flex-flow: column wrap;
@@ -101,7 +101,7 @@ table {
   min-height: 0.1em;
   width: 5em;
   text-align: center;
-  background: linear-gradient(#EFD8E8, #fefcfd); }
+  background: linear-gradient(#EFD8E8, transparent); }
   .menulist ul {
     margin: 0.5em; }
     .menulist ul li {
@@ -118,7 +118,32 @@ table {
   display: none; }
 
 /*# sourceMappingURL=header.css.map */
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css";
+.content {
+  background: linear-gradient(#f6eaf3, transparent);
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+  .content .g-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+    .content .g-wrapper .gender {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      text-align: center;
+      margin: 1em; }
+      .content .g-wrapper .gender .g-icon {
+        font-size: 5em;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+      .content .g-wrapper .gender .ion-female {
+        color: #f9abdb; }
+      .content .g-wrapper .gender .ion-male {
+        color: #a8a2fd; }
 
 /*# sourceMappingURL=content.css.map */
-</style></head><body><div class="header"><div class="brand"><h1>The Gap</h1></div><div class="navbar"><div class="ion-ios-more ion-ios-more-outline menu navtoggle"></div><div class="menulist hide"><ul><li><a class="button is-large" href="#">Home</a></li><li><a class="button is-large" href="#">About</a></li><li><a class="button is-large" href="#">Contact</a></li></ul></div></div></div><div class="content"><h1>Hello world</h1><p>Things are moving forward!</p></div><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="assets/js/menu.js"></script></body></html>
+</style></head><body><div class="header"><div class="brand"><h1>The Gap</h1></div><div class="navbar"><div class="ion-ios-more ion-ios-more-outline menu navtoggle"></div><div class="menulist hide"><ul><li><a class="button is-large" href="#">Home</a></li><li><a class="button is-large" href="#">About</a></li><li><a class="button is-large" href="#">Contact</a></li></ul></div></div></div><div class="content"><div class="g-wrapper"><div class="gender"><div class="ion-female g-icon"></div><h1>Female</h1><p>Come together memememe</p></div><div class="gender"><div class="ion-transgender g-icon"></div><h1>Transgender</h1><p>Come together memememe</p></div><div class="gender"><div class="ion-male g-icon"></div><h1>Male</h1><p>Come together memememe</p></div></div></div><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="assets/js/menu.js"></script></body></html>
