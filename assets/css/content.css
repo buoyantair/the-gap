@@ -20,6 +20,14 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center; }
+      .content .g-wrapper .gender .g-icon {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 3em;
+        height: 3em;
+        background: white;
+        border-radius: 100%; }
       .content .g-wrapper .gender .ion-female {
         color: #f9abdb; }
       .content .g-wrapper .gender .ion-male {
