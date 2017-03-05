@@ -15,18 +15,22 @@
     color: $p-tcol
     h1
         +flex(flex, column wrap, center)
-        position: relative
+        position: absolute
+        font-size: 1.2em
         transform: translateY(.5em) scale(2) rotateZ(-7deg)
+
 .navbar
     +flex(flex, row wrap, space-around)
     +mksmpl(0em, .5em)
     width: 22%
     .navtoggle, .navtoggle:hover
+        color: $pink
         +flex(flex, column wrap, center)
         width: 1em
         height: 1em
         text-align: center
-        font-size: 1em
+        position: relative
+        font-size: 1.5em
         cursor: pointer
 
 .menulist
