@@ -1,3 +1,4 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css";
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -57,6 +58,13 @@
     margin: 0.5em; }
     .menulist ul li {
       display: block; }
+    .menulist ul .button, .menulist ul .button:focus, .menulist ul .button:active {
+      background: #e8c6dd;
+      border: none;
+      color: #FFF;
+      box-shadow: none; }
+    .menulist ul .button:hover {
+      box-shadow: 0px 0px 5px 1px #e0b4d3; }
 
 .menulist.hide {
   display: none; }
