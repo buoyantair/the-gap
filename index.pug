@@ -6,11 +6,17 @@ html
             include assets/css/reset.css
         link(rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
         link(href="https://fonts.googleapis.com/css?family=Merienda|Satisfy" rel="stylesheet")
-        link()
+        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css")
         style
             include assets/css/header.css
             include assets/css/content.css
 
     body
         include assets/components/header.pug
+
         include assets/components/content.pug
+
+        script(src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous")
+        script(src="assets/js/menu.js")

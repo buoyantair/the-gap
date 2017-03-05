@@ -23,16 +23,39 @@
     position: relative;
     transform: translateY(0.5em) scale(2) rotateZ(-7deg); }
 
-.nav {
+.navbar {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 0em;
   margin: 0.5em;
   width: 22%; }
-  .nav ul li {
+  .navbar .navtoggle, .navbar .navtoggle:hover {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center; }
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer; }
+
+.menulist {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  position: absolute;
+  top: 2em;
+  min-height: 0.1em;
+  width: 5em;
+  text-align: center;
+  background: linear-gradient(#EFD8E8, #fefcfd); }
+  .menulist ul {
+    margin: 0.5em; }
+    .menulist ul li {
+      display: block; }
+
+.menulist.hide {
+  display: none; }
 
 /*# sourceMappingURL=header.css.map */

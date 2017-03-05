@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-</style><link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"><link href="https://fonts.googleapis.com/css?family=Merienda|Satisfy" rel="stylesheet"><link><style>.header {
+</style><link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"><link href="https://fonts.googleapis.com/css?family=Merienda|Satisfy" rel="stylesheet"><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css"><style>.header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -71,20 +71,43 @@ table {
     position: relative;
     transform: translateY(0.5em) scale(2) rotateZ(-7deg); }
 
-.nav {
+.navbar {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 0em;
   margin: 0.5em;
   width: 22%; }
-  .nav ul li {
+  .navbar .navtoggle, .navbar .navtoggle:hover {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center; }
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer; }
+
+.menulist {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  position: absolute;
+  top: 2em;
+  min-height: 0.1em;
+  width: 5em;
+  text-align: center;
+  background: linear-gradient(#EFD8E8, #fefcfd); }
+  .menulist ul {
+    margin: 0.5em; }
+    .menulist ul li {
+      display: block; }
+
+.menulist.hide {
+  display: none; }
 
 /*# sourceMappingURL=header.css.map */
 
 
 /*# sourceMappingURL=content.css.map */
-</style></head><body><div class="header"><div class="brand"><h1>The Gap</h1></div><div class="nav"><ul><li class="ion-ios-more-outline"></li></ul></div></div><div class="content"><h1>Hello world</h1></div></body></html>
+</style></head><body><div class="header"><div class="brand"><h1>The Gap</h1></div><div class="navbar"><div class="ion-ios-more ion-ios-more-outline menu navtoggle"></div><div class="menulist hide"><ul><li><a class="button is-primary is-large" href="#">Home</a></li><li><a class="button is-primary is-large" href="#">About</a></li><li><a class="button is-primary is-large" href="#">Contact</a></li></ul></div></div></div><div class="content"><h1>Hello world</h1><p>Things are moving forward!</p></div><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src="assets/js/menu.js"></script></body></html>
